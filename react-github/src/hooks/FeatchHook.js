@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { useQuery } from 'react-query';
-const token = "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"
+const token = "YourToken"
 
 export const fetchData = async (githubUser) => {
     try {
